@@ -2,20 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Estilos globales para comportamiento de App nativa */
 body {
   margin: 0;
   padding: 0;
-  background-color: #f8fafc; /* slate-50 */
-  overscroll-behavior-y: none; /* Evita el rebote al hacer scroll en iOS */
-  -webkit-tap-highlight-color: transparent;
-}
-
-/* Ocultar scrollbar pero permitir scroll */
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-.no-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  background-color: #f8fafc;
+  overscroll-behavior-y: none;
 }
